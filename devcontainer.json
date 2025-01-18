@@ -1,0 +1,8 @@
+{
+  "name": "C Development",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "postCreateCommand": "sudo apt update && sudo apt install gcc make -y",
+  "extensions": [
+    "ms-vscode.cpptools"
+  ]
+}
